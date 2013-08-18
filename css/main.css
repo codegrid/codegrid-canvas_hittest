@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+.all {
+    width: 320px;
+    margin: 0 auto;
+}
+.copy {
+    text-align: right;
+    font-size: 10px;
+}
