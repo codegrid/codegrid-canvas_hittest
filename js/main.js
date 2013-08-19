@@ -14,7 +14,7 @@
     ctx.drawImage(img, 0, 0);
     var px = ctx.getImageData(x, y, 1, 1);
     var red = px.data[0];
-    return red < 128;
+    return red > 128;
   }
 
   map.addEventListener('touchstart', function(e) {
