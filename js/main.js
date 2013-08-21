@@ -24,7 +24,6 @@
     var baseY = this.offsetTop;
     var x = pageX - baseX;
     var y = pageY - baseY;
-
     if (hitTest(x, y, img)) {
       location.href = href;
     }
